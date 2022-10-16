@@ -4,6 +4,8 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --secondary-color-fon: #f5f4fa;
+  --social-link-color: #AFB1B8;
+
 }
 .page {
   background-color: #ffffff;
@@ -102,7 +104,7 @@ img {
 .logo-nav {
   display: flex;
 }
-.contacts .link {
+.contacts.list .link {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -275,6 +277,59 @@ align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  .social-clic{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+  }
+  .social-clic:hover svg,
+    .social-clic:focus svg{
+    fill: var(--white-color);
+  }
+  .social-clic:hover,
+    .social-clic:focus{
+    background-color: var(--accent-color);
+  }
+  .social.list{
+   display: flex;
+   gap: 10px;
+   margin-top: 16px;
+    justify-content: center;
+  }
+    .social-icon{
+      fill:var(--social-link-color);
+    }
+    .client-clic{
+      width: 170px;
+        height: 92px;
+      border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        display: flex;
+          align-items: center;
+          justify-content: center;
+    }
+    .client.list{
+      display: flex;
+      margin-top: 50px;
+      gap: 30px;
+    }
+       .client-icon{
+        fill: var(--social-link-color);
+       }
+             .client-clic:hover svg,
+             .client-clic:focus svg{
+              fill: var(--accent-color);
+             }
+        .client-clic:hover ,
+        .client-clic:focus{
+         border-color: var(--accent-color);
+        }
+
 /* Button */
 .button {
   cursor: pointer;
