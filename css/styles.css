@@ -260,7 +260,6 @@ align-items: center;
 .team-box {
   display: flex;
   margin-top: 50px;
-  /* padding-bottom: 94px; */
   gap: 30px;
 }
 .team-card {
@@ -270,9 +269,6 @@ align-items: center;
 .team-card .title {
   margin-bottom: 10px;
 }
-/* .team-card .text {
-  padding-bottom: 30px; */
-
   .team-information{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -304,6 +300,7 @@ align-items: center;
     .social-icon{
       fill:var(--social-link-color);
     }
+    /* Client */
     .client-clic{
       width: 170px;
         height: 92px;
@@ -353,8 +350,9 @@ align-items: center;
   background-color: #2f303a;
 }
 .footer-box {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 60px;
+  display: flex;
 }
 .footer.logo {
   color: var(--white-color);
@@ -379,6 +377,50 @@ align-items: center;
 
 .link-footer:not(:last-child){
 margin-bottom: 9px;
+}
+.social-footer .title{
+  color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.social-footer{
+  margin-left: 70px;
+  padding-top: 72px;
+}
+.adress-footer{
+  padding-top: 60px;
+}
+.footer-clic {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-clic:hover svg,
+.footer-clic:focus svg {
+  fill: var(--white-color);
+}
+
+.footer-clic:hover,
+.footer-clic:focus {
+  background-color: var(--accent-color);
+}
+.footer-icon {
+  fill: var(--white-color);
+}
+.footer-list.list {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
 }
 .button.filter {
   padding: 6px 25px;
