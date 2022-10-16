@@ -219,7 +219,7 @@ img {
   padding-bottom: 0;
 }
 .feature-item {
-  width: calc((100%-90px) / 4);
+   width: calc((100%-90px) / 4);
 }
 /* Examles */
 .examples-box {
@@ -228,6 +228,15 @@ img {
   gap: 30px;
   /* padding-bottom: 94px; */
 }
+.feature-bloc{
+display: flex;
+  height: 120px;
+background-color: var(--secondary-color-fon);
+align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
 /* Team */
 .section.team {
   background-color: var(--secondary-color-fon);
