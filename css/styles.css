@@ -144,7 +144,7 @@ img {
 }
 .contacts .link:hover svg,
 .contacts .link:focus {
-  /* fill: var(--accent-color); */
+
 }
 .container-nav {
   display: flex;
