@@ -519,6 +519,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* fill: var(--social-link-color) */
+ 
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
